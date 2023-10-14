@@ -1,4 +1,4 @@
-public class Example {
+public class TwoFunctionsExample {
 
     public static void main(String[] args) {
         int num1 = 10;
