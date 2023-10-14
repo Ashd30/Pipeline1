@@ -1,20 +1,23 @@
-public class Example
-{
-    public static void message()
-    {
-        System.out.println("I am learning how to create void function in Java.");
+public class Example {
+
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 5;
+
+        int sum = addNumbers(num1, num2);
+        System.out.println("Sum: " + sum);
+
+        int product = multiplyNumbers(num1, num2);
+        System.out.println("Product: " + product);
     }
 
-    public static void sum(int a, int b)
-    {
-        int c;
-        c=a+b;
-        System.out.println("Sum of " + a + " and " + b + " is " + c);
+    // Function to add two numbers
+    public static int addNumbers(int a, int b) {
+        return a + b;
     }
 
-    public static void main(String args[])
-    {
-        message();
-        sum(10,20);
+    // Function to multiply two numbers
+    public static int multiplyNumbers(int a, int b) {
+        return a * b;
     }
 }
